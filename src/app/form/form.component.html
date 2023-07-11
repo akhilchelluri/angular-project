@@ -1,0 +1,100 @@
+<body>
+    
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" style="margin-top:130px;">
+            <form action=""name="form"(ngSubmit)="f.form.valid && submit()" #f="ngForm">
+                <div class="form-group">
+                    <label for=""class="form-label"><span style="color:white">Username</span></label>
+                    <input type="text"class="form-control"name="username" [(ngModel)]="username"#uuser="ngModel" required style="border:solid 3px black" >
+                    <div *ngIf="f.submitted && !uuser.valid" class="text-danger">username is required</div>
+                </div>
+                <div class="form-group">
+                    <label for=""class="form-label"><span style="color:white">Pgihonenumber</span></label>
+                    <input type="text"class="form-control"name="phonenumber"[(ngModel)]="phonenumber"#uphone="ngModel" required style="border:solid 3px black"  >
+                    <div *ngIf="f.submitted && !uphone.valid"class="text-danger">phonenumber is required</div>
+                </div>
+                <div class="form-group">
+                    <label for=""class="form-label"><span style="color:white">Email</span></label>
+                    <input type="text"class="form-control"name="email"[(ngModel)]="Email" #ueser="ngModel" required style="border:solid 3px black" >
+                    <div *ngIf="f.submitted && !ueser.valid" class="text-danger">Email is required </div>
+                </div>
+                <div class="form-group">
+                    <label for=""class="form-label"><span style="color:white">Address</span></label>
+                    <input type="text"class="form-control"[(ngModel)]="Address"#uaddress="ngModel" required style="border:solid 3px black" >
+                    <div *ngIf="f.submitted && !uaddress.valid" class="text-danger">Address is required</div>
+
+                </div><br>
+                <div class="form-group">
+                    <button class="btn btn-success"[disabled]="!f.form.valid" style="margin-left:80px;">submit</button>
+                    <button class="btn btn-danger" style="margin-left:30px;">cancel</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"><br>  
+                <h5 style="color:blue">Shopping with AS</h5>
+                <a href="https://www.facebook.com/">size Guides</a><br>
+                <a href="https://www.facebook.com/">Exclusions</a>
+            </div>
+            <div class="col-md-3"><br>
+                <h5 style="color:blue">Customer Care</h5>
+                <a href="https://www.facebook.com/">Delivery & Returns</a><br>
+                <a href="https://www.facebook.com/">Help</a><br>
+                <a href="https://www.facebook.com/">Contact Us</a><br>
+                <a href="https://www.facebook.com/">Track My Order</a>
+            </div>
+            <div class="col-md-3"><br>
+                <h5 style="color:blue">Corporate</h5>
+                <a href="https://www.facebook.com/">Careers</a><br>
+                <a href="https://www.facebook.com/">Contact Us</a><br>
+                <a href="https://www.facebook.com/">Become An Affiliate</a><br>
+                <a href="https://www.facebook.com/">AS Sports Fashion Plc</a>
+            </div>
+            <div class="col-md-3"><br>
+                <h5 style="color:blue">Legal</h5>
+                <a href="https://www.facebook.com/">Terms & Conditions</a><br>
+                <a href="https://www.facebook.com/">Privacy & Cookies</a><br>
+                <a href="https://www.facebook.com/">Accessibility</a><br>
+                <a href="https://www.facebook.com/">Site Map</a><br>
+                <a href="https://www.facebook.com/">Modern Slavery Report</a>
+            </div>
+        </div>
+    </div><br><br>
+    <ul>
+        <p class="color" style="margin-left:15px;">join the conversion</p>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" style="font-size:30px"></i></a>
+        <a href="https://www.youtube.com/" target="_blank" style="margin-left:25px"><i class="fa-brands fa-youtube" style="font-size:30px"></i></a>
+        <a href="https://twitter.com/home" target="_blank" style="margin-left:25px"><i class="fa fa-twitter" style="font-size:30px"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" style="margin-left:25px"><i class="fa-brands fa-instagram" style="font-size:30px"></i></a>
+           
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p style="color:white">visit our corporate website at www.akhilsports.com</p>
+                <p style="color:white">copyright &copy; 2023 AkhilSports All rights reserved.</p>
+
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="p1"style="margin-left:100px">we accepted the following payments</p>
+                <img src="https://i8.amplience.net/i/jpl/desktop-example-f65e9d9f643754bb2bd76f3f4e8b0366?qlt=80" alt="" height=20>
+            </div>
+        </div>
+    </div>
+ </footer>
+</body>
+
+
+    
+

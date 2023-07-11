@@ -1,0 +1,78 @@
+th{
+    color:blue;
+    padding:20px;
+}
+footer{
+    background-color:black;
+    margin-top:200px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+ul{
+    margin-left:625px;
+}
+.p1{
+    color:white;
+}
+.cart{
+    margin-left:500px;
+}
+.color{
+    font-weight: bolder;
+    color:white;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/61135/pexels-photo-61135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
+    
+}
+
+.card-header{
+    height:60px;
+}
+.card-body{
+    height:300px;
+}
+.card-header{
+    background-color:aliceblue;
+    color:black;
+    font-weight:bolder;
+    border-bottom: solid 2px black;
+}
+
+.card-footer{
+    background-color:aliceblue;
+    color:black;
+    font-weight:bolder;
+    border-top: solid 2px black;
+    
+    
+}
+.card-body{
+    background-color:white;
+    margin-top:20px;
+}
+.price{
+    
+   border:solid 2px black;
+    border-radius: 8px;
+
+}
+.card{
+    
+    border:solid 2px black;
+    border-radius: 8px;
+ 
+  
+}
+
+.cards{
+    height:530px;
+    width:440px;
+    margin-left:20px;
+}

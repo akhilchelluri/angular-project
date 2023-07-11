@@ -1,0 +1,75 @@
+
+.color{
+    font-weight:bolder;
+    color:white;
+}
+
+footer{
+    background-color:black;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+
+.p1{
+    color:white;
+}
+img{
+    margin-top:20px;
+}
+ul{
+    margin-left:625px;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/61135/pexels-photo-61135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
+    
+}
+.card-header{
+    height:60px;
+    
+}
+.card-body{
+    height:300px;
+    
+
+}
+.cards{
+    height:530px;
+    width:470px;
+    margin-left:20px;
+  
+}
+.card-header{
+    background-color:aliceblue;
+    color:black;
+    font-weight:bolder;
+    border-bottom: solid 2px black;
+}
+.card-footer{
+    background-color:aliceblue;
+    color:black;
+    font-weight:bolder;
+    border-top: solid 2px black;
+    
+    
+}
+.card-body{
+    background-color:white;
+}
+.card{
+    border:solid 2px black;
+    border-radius:8px;
+}
+.price{
+    border:solid 2px black;
+    border-radius:8px;
+}
+hr{
+    color:black;
+    border:solid 1px black;
+}
